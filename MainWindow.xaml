@@ -1,0 +1,22 @@
+﻿<Window x:Class="Tarea_3_CrearOtroRegistroEnWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea_3_CrearOtroRegistroEnWpf"
+        mc:Ignorable="d"
+        Title="Ventana De Menu" Height="400" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <Menu Height="20">
+                <MenuItem Header="Registros">
+                    <MenuItem x:Name="RegistroUsuariosMenuItem" Header="Registro Usuarios" Click="RegistroUsuarioMenuItem_Click"/>
+                </MenuItem>
+
+                <MenuItem Header="Consultas">
+                    <MenuItem x:Name="ConsultaUsuariosMenuItem" Header="Consultar Usuarios" Click="ConsultaUsuarioMenuItem_Click"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>
