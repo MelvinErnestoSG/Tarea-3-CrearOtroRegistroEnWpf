@@ -18,7 +18,7 @@ Considering that the ROLE must be selected from a ComboBox I use the model creat
 
 ![Captura de pantalla 2022-05-11 193341](https://user-images.githubusercontent.com/101652978/167964377-74c27c37-a2fe-40cf-acae-29215cdcba9d.png)
 
-# Records window.
+# Registers window.
 
 ![Captura de pantalla 2022-05-11 193406](https://user-images.githubusercontent.com/101652978/167964619-bc0e66dd-8ce4-4928-b587-7bc4542bee4f.png)
 
